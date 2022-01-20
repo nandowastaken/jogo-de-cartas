@@ -1,2 +1,6 @@
 # jogo-de-cartas
-Este é um jogo de cartas feito com programação orientada a objetos para o IFAL. 
+Jogo de cartas feito para o projeto de POO do segundo bimestre do IFAL.
+
+O jogo pede ao jogador para escolher um tipo de carta, cada carta tem uma pontuação diferente, e depois são sorteadas, o com a maior pontuação leva a rodada. São de 3 a 5 rodadas, e, no final de tudo, o vencedor de todas as rodadas é revelado.
+
+O código do projeto está disponível em src.
