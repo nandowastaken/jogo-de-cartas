@@ -37,6 +37,7 @@ public class Start {
 		
 		if (rounds > 5 || rounds < 3) {
 			System.out.println("Era para ser entre 3 e 5. Você vai jogar um jogo de 3 rounds");
+			rounds = 3;
 		}
 		
 		System.out.println("Digite o tipo da carta: \n1. Normal;\n2. Naipe+;\n3. Valor+;\n");
@@ -45,11 +46,16 @@ public class Start {
 		
 		
 		while (rounds > 0) {
+			
 			novoJogo.sortearCartas(tipo_carta);
 			System.out.println();
 			novoJogo.addPontos();
 			System.out.println();
 			System.out.println();
+			
+			if (rounds - 1 == 0) {
+				break;
+			}
 			
 			System.out.println("Deseja continuar? S/N");
 			String resposta = sc.next();
@@ -58,6 +64,7 @@ public class Start {
 			}
 			
 			rounds--;
+			
 		}
 		
 		novoJogo.anunciaVencedor();

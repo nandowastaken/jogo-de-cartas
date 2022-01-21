@@ -21,29 +21,6 @@ public class ManusearJogo {
 		return jogadores;
 	}
 	
-	
-	private String formatarNumero(int numero_da_carta) {
-		switch (numero_da_carta) {
-			case 1:
-				return "Ás";
-			case 2:
-				return "Paus";
-			case 3:
-				return "Ouros";
-			case 4:
-				return "Copas";
-			case 5:
-				return "Espadas";
-			case 11:
-				return "Valete";
-			case 12:
-				return "Dama";
-			default:
-				return "Rei";
-		}
-		
-	}
-	
 	public void sortearCartas(int tipo_carta) {
 		// Sorteia carta
 		for (int i = 0; i < this.jogadores.length; i++) {
