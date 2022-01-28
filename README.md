@@ -1,4 +1,3 @@
-# jogo-de-cartas
-Jogo de cartas feito para o projeto de POO do segundo bimestre do IFAL.
+# Jogo de Cartas
+Um jogo de cartas desenvolvido com programação orientada a objetos, o usuário pode escolher de 3 a 5 rodadas e é jogado por 4 jogadores, a cada rodada, uma carta de um certo naipe são sorteados para cada jogador, e vence o jogador com a maior pontuação, no final de todas as rodadas, o jogador com o maior número de pontos é anunciado vencedor.
 
-O jogo pede ao jogador para escolher um tipo de carta, cada carta tem uma pontuação diferente, e depois são sorteadas, o com a maior pontuação leva a rodada. São de 3 a 5 rodadas, e, no final de tudo, o vencedor de todas as rodadas é revelado.
